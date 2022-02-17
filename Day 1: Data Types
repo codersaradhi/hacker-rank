@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int i = 12;
+    double d = 4.0;
+    char s[] = "HackerRank ";
+    int j=(i+d);
+    printf("%d\n",j);
+    printf("%.1lf\n",(d+d));
+    printf("%sis the best place to learn and practice coding! \n",s);
+    return 0;
+}
